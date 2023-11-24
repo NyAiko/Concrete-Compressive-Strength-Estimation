@@ -12,5 +12,7 @@ In this step, we make descriptive analysis to explore and understand each variab
 Before we start model building, we remove outliers with the Isolation Forest Algorithm with 5% contamination then rescale the data with RobustScaler so that the rescaled will not be sensitive to some undetected outliers. After building regression models and hyperparameters tuning, the best model has R2 score of 90%. It is an ensemble method called "gradient boosting regressor" and its learning curves is shown below:
 ![learning_curves](https://user-images.githubusercontent.com/105801284/204358218-00d270b8-ca7b-4fa9-b817-a59190d71bb5.png)
 
-## Web App with Flask:
-We will build a Flask API endpoint to make a request from user’s data and send the compressive strengths as response (output). The trained model should be saved using Python pickle library and the app interface is a single html page.
+## Streamlit APP VERSION:
+You can easily run the streamlit app by changing to current directory to apps then run the app.py script
+$ cd apps/
+$ streamlit run app.py
