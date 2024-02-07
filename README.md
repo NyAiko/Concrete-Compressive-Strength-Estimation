@@ -1,6 +1,6 @@
 # Concrete-Compressive-Strength-Estimation
 ## Concrete Compressive Strength Estimator: Project Overview
-This projects aims to predict the compressive strength of concrete materials used in civil engineering. We trained a model on a dataset from the “UCI Machine Learning Repository”. We will train a regression model on the data and then build a very simple client interface with Flask.
+This projects aims to predict the compressive strength of concrete materials used in civil engineering. We trained a model on a dataset from the “UCI Machine Learning Repository”. We will train a regression model on the data and then build a very simple client interface with Streamlit.
 
 ## Exploratory Data Analysis:
 In this step, we make descriptive analysis to explore and understand each variables in the data. The figures below show the distributions of each features and the correlations between each features.
